@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.category import Category  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.category import Category  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestCategory(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCategory(unittest.TestCase):
     def testCategory(self):
         """Test Category"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.category.Category()  # noqa: E501
+        # model = py_shortcut.models.category.Category()  # noqa: E501
         pass
 
 

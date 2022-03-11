@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.history_action_task_delete import HistoryActionTaskDelete  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.history_action_task_delete import HistoryActionTaskDelete  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestHistoryActionTaskDelete(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestHistoryActionTaskDelete(unittest.TestCase):
     def testHistoryActionTaskDelete(self):
         """Test HistoryActionTaskDelete"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.history_action_task_delete.HistoryActionTaskDelete()  # noqa: E501
+        # model = py_shortcut.models.history_action_task_delete.HistoryActionTaskDelete()  # noqa: E501
         pass
 
 

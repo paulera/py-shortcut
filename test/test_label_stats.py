@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.label_stats import LabelStats  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.label_stats import LabelStats  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestLabelStats(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLabelStats(unittest.TestCase):
     def testLabelStats(self):
         """Test LabelStats"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.label_stats.LabelStats()  # noqa: E501
+        # model = py_shortcut.models.label_stats.LabelStats()  # noqa: E501
         pass
 
 

@@ -17,7 +17,7 @@ import re  # noqa: F401
 # python 2 and python 3 compatibility library
 import six
 
-from shortcut_api.api_client import ApiClient
+from py_shortcut.api_client import ApiClient
 
 
 class DefaultApi(object):

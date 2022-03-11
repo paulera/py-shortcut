@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.story_history_change_old_new_str import StoryHistoryChangeOldNewStr  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.story_history_change_old_new_str import StoryHistoryChangeOldNewStr  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestStoryHistoryChangeOldNewStr(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestStoryHistoryChangeOldNewStr(unittest.TestCase):
     def testStoryHistoryChangeOldNewStr(self):
         """Test StoryHistoryChangeOldNewStr"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.story_history_change_old_new_str.StoryHistoryChangeOldNewStr()  # noqa: E501
+        # model = py_shortcut.models.story_history_change_old_new_str.StoryHistoryChangeOldNewStr()  # noqa: E501
         pass
 
 

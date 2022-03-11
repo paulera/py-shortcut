@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.epic_search_results import EpicSearchResults  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.epic_search_results import EpicSearchResults  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestEpicSearchResults(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestEpicSearchResults(unittest.TestCase):
     def testEpicSearchResults(self):
         """Test EpicSearchResults"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.epic_search_results.EpicSearchResults()  # noqa: E501
+        # model = py_shortcut.models.epic_search_results.EpicSearchResults()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.max_search_results_exceeded_error import MaxSearchResultsExceededError  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.max_search_results_exceeded_error import MaxSearchResultsExceededError  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestMaxSearchResultsExceededError(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestMaxSearchResultsExceededError(unittest.TestCase):
     def testMaxSearchResultsExceededError(self):
         """Test MaxSearchResultsExceededError"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.max_search_results_exceeded_error.MaxSearchResultsExceededError()  # noqa: E501
+        # model = py_shortcut.models.max_search_results_exceeded_error.MaxSearchResultsExceededError()  # noqa: E501
         pass
 
 

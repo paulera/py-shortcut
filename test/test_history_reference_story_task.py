@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.history_reference_story_task import HistoryReferenceStoryTask  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.history_reference_story_task import HistoryReferenceStoryTask  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestHistoryReferenceStoryTask(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestHistoryReferenceStoryTask(unittest.TestCase):
     def testHistoryReferenceStoryTask(self):
         """Test HistoryReferenceStoryTask"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.history_reference_story_task.HistoryReferenceStoryTask()  # noqa: E501
+        # model = py_shortcut.models.history_reference_story_task.HistoryReferenceStoryTask()  # noqa: E501
         pass
 
 

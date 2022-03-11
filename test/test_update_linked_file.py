@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import shortcut_api
-from shortcut_api.models.update_linked_file import UpdateLinkedFile  # noqa: E501
-from shortcut_api.rest import ApiException
+import py_shortcut
+from py_shortcut.models.update_linked_file import UpdateLinkedFile  # noqa: E501
+from py_shortcut.rest import ApiException
 
 
 class TestUpdateLinkedFile(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestUpdateLinkedFile(unittest.TestCase):
     def testUpdateLinkedFile(self):
         """Test UpdateLinkedFile"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = shortcut_api.models.update_linked_file.UpdateLinkedFile()  # noqa: E501
+        # model = py_shortcut.models.update_linked_file.UpdateLinkedFile()  # noqa: E501
         pass
 
 
