@@ -1,4 +1,4 @@
-# swagger_client.DefaultApi
+# shortcut_api.DefaultApi
 
 All URIs are relative to *https://api.app.shortcut.com/*
 
@@ -121,19 +121,19 @@ Create Category allows you to create a new Category in Shortcut.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateCategory() # CreateCategory | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateCategory() # CreateCategory | 
 
 try:
     # Create Category
@@ -175,19 +175,19 @@ Create a new entity template for the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateEntityTemplate() # CreateEntityTemplate | Request paramaters for creating an entirely new entity template.
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateEntityTemplate() # CreateEntityTemplate | Request paramaters for creating an entirely new entity template.
 
 try:
     # Create Entity Template
@@ -229,19 +229,19 @@ Create Epic allows you to create a new Epic in Shortcut.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateEpic() # CreateEpic | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateEpic() # CreateEpic | 
 
 try:
     # Create Epic
@@ -283,19 +283,19 @@ This endpoint allows you to create a threaded Comment on an Epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateEpicComment() # CreateEpicComment | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateEpicComment() # CreateEpicComment | 
 epic_public_id = 789 # int | The ID of the associated Epic.
 
 try:
@@ -339,19 +339,19 @@ This endpoint allows you to create a nested Comment reply to an existing Epic Co
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateCommentComment() # CreateCommentComment | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateCommentComment() # CreateCommentComment | 
 epic_public_id = 789 # int | The ID of the associated Epic.
 comment_public_id = 789 # int | The ID of the parent Epic Comment.
 
@@ -395,19 +395,19 @@ Create Group
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateGroup() # CreateGroup | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateGroup() # CreateGroup | 
 
 try:
     # Create Group
@@ -447,19 +447,19 @@ Create Iteration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateIteration() # CreateIteration | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateIteration() # CreateIteration | 
 
 try:
     # Create Iteration
@@ -501,19 +501,19 @@ Create Label allows you to create a new Label in Shortcut.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateLabelParams() # CreateLabelParams | Request parameters for creating a Label on a Shortcut Story.
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateLabelParams() # CreateLabelParams | Request parameters for creating a Label on a Shortcut Story.
 
 try:
     # Create Label
@@ -555,19 +555,19 @@ Create Linked File allows you to create a new Linked File in Shortcut.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateLinkedFile() # CreateLinkedFile | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateLinkedFile() # CreateLinkedFile | 
 
 try:
     # Create Linked File
@@ -609,19 +609,19 @@ Create Milestone allows you to create a new Milestone in Shortcut.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateMilestone() # CreateMilestone | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateMilestone() # CreateMilestone | 
 
 try:
     # Create Milestone
@@ -663,19 +663,19 @@ Create Multiple Stories allows you to create multiple stories in a single reques
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateStories() # CreateStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateStories() # CreateStories | 
 
 try:
     # Create Multiple Stories
@@ -717,19 +717,19 @@ Create Project is used to create a new Shortcut Project.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateProject() # CreateProject | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateProject() # CreateProject | 
 
 try:
     # Create Project
@@ -771,19 +771,19 @@ Create Story is used to add a new story to your Shortcut.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateStoryParams() # CreateStoryParams | Request parameters for creating a story.
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateStoryParams() # CreateStoryParams | Request parameters for creating a story.
 
 try:
     # Create Story
@@ -825,19 +825,19 @@ Create Comment allows you to create a Comment on any Story.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateStoryComment() # CreateStoryComment | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateStoryComment() # CreateStoryComment | 
 story_public_id = 789 # int | The ID of the Story that the Comment is in.
 
 try:
@@ -881,19 +881,19 @@ Story Links (called Story Relationships in the UI) allow you create semantic rel
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateStoryLink() # CreateStoryLink | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateStoryLink() # CreateStoryLink | 
 
 try:
     # Create Story Link
@@ -935,19 +935,19 @@ Create a reaction to a story comment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateOrDeleteStoryReaction() # CreateOrDeleteStoryReaction | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateOrDeleteStoryReaction() # CreateOrDeleteStoryReaction | 
 story_public_id = 789 # int | The ID of the Story that the Comment is in.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -993,19 +993,19 @@ Create Task is used to create a new task in a Story.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateTask() # CreateTask | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateTask() # CreateTask | 
 story_public_id = 789 # int | The ID of the Story that the Task will be in.
 
 try:
@@ -1049,18 +1049,18 @@ Delete Category can be used to delete any Category.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 category_public_id = 789 # int | The unique ID of the Category.
 
 try:
@@ -1100,18 +1100,18 @@ Delete Entity Template
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 entity_template_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The unique ID of the entity template.
 
 try:
@@ -1153,18 +1153,18 @@ Delete Epic can be used to delete the Epic. The only required parameter is Epic 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 epic_public_id = 789 # int | The unique ID of the Epic.
 
 try:
@@ -1206,18 +1206,18 @@ This endpoint allows you to delete a Comment from an Epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 epic_public_id = 789 # int | The ID of the associated Epic.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -1261,18 +1261,18 @@ Delete File deletes a previously uploaded file.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 file_public_id = 789 # int | The File’s unique ID.
 
 try:
@@ -1312,18 +1312,18 @@ Delete Iteration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 iteration_public_id = 789 # int | The unique ID of the Iteration.
 
 try:
@@ -1365,18 +1365,18 @@ Delete Label can be used to delete any Label.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 label_public_id = 789 # int | The unique ID of the Label.
 
 try:
@@ -1418,18 +1418,18 @@ Delete Linked File can be used to delete any previously attached Linked-File.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 linked_file_public_id = 789 # int | The unique identifier of the linked file.
 
 try:
@@ -1471,18 +1471,18 @@ Delete Milestone can be used to delete any Milestone.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 milestone_public_id = 789 # int | The ID of the Milestone.
 
 try:
@@ -1524,19 +1524,19 @@ Delete Multiple Stories allows you to delete multiple archived stories at once.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.DeleteStories() # DeleteStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.DeleteStories() # DeleteStories | 
 
 try:
     # Delete Multiple Stories
@@ -1577,18 +1577,18 @@ Delete Project can be used to delete a Project. Projects can only be deleted if 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 project_public_id = 789 # int | The unique ID of the Project.
 
 try:
@@ -1630,18 +1630,18 @@ Delete Story can be used to delete any Story.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The ID of the Story.
 
 try:
@@ -1683,18 +1683,18 @@ Delete a Comment from any story.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The ID of the Story that the Comment is in.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -1738,18 +1738,18 @@ Removes the relationship between the stories for the given Story Link.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_link_public_id = 789 # int | The unique ID of the Story Link.
 
 try:
@@ -1791,19 +1791,19 @@ Delete a reaction from any story comment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateOrDeleteStoryReaction() # CreateOrDeleteStoryReaction | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.CreateOrDeleteStoryReaction() # CreateOrDeleteStoryReaction | 
 story_public_id = 789 # int | The ID of the Story that the Comment is in.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -1848,18 +1848,18 @@ Delete Task can be used to delete any previously created Task on a Story.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The unique ID of the Story this Task is associated with.
 task_public_id = 789 # int | The unique ID of the Task.
 
@@ -1903,18 +1903,18 @@ Disables Groups for the current workspace2
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Disable Groups
@@ -1952,18 +1952,18 @@ Disables Iterations for the current workspace
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Disable Iterations
@@ -2001,18 +2001,18 @@ Disables the Story Template feature for the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Disable Story Templates
@@ -2050,18 +2050,18 @@ Enables Groups for the current workspace2
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Enable Groups
@@ -2099,18 +2099,18 @@ Enables Iterations for the current workspace
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Enable Iterations
@@ -2148,18 +2148,18 @@ Enables the Story Template feature for the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Enable Story Templates
@@ -2197,18 +2197,18 @@ Get Category returns information about the selected Category.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 category_public_id = 789 # int | The unique ID of the Category.
 
 try:
@@ -2251,18 +2251,18 @@ Returns information about the authenticated member.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Get Current Member Info
@@ -2301,18 +2301,18 @@ Get Entity Template returns information about a given entity template.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 entity_template_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The unique ID of the entity template.
 
 try:
@@ -2355,18 +2355,18 @@ Get Epic returns information about the selected Epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 epic_public_id = 789 # int | The unique ID of the Epic.
 
 try:
@@ -2409,18 +2409,18 @@ This endpoint returns information about the selected Epic Comment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 epic_public_id = 789 # int | The ID of the associated Epic.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -2465,18 +2465,18 @@ Returns the Epic Workflow for the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # Get Epic Workflow
@@ -2515,19 +2515,19 @@ Get Stories which have a given External Link associated with them.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.GetExternalLinkStoriesParams() # GetExternalLinkStoriesParams | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.GetExternalLinkStoriesParams() # GetExternalLinkStoriesParams | 
 
 try:
     # Get External Link Stories
@@ -2569,18 +2569,18 @@ Get File returns information about the selected UploadedFile.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 file_public_id = 789 # int | The File’s unique ID.
 
 try:
@@ -2621,18 +2621,18 @@ Get Group
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 group_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The unique ID of the Group.
 
 try:
@@ -2673,18 +2673,18 @@ Get Iteration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 iteration_public_id = 789 # int | The unique ID of the Iteration.
 
 try:
@@ -2727,18 +2727,18 @@ Get Label returns information about the selected Label.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 label_public_id = 789 # int | The unique ID of the Label.
 
 try:
@@ -2781,18 +2781,18 @@ Get File returns information about the selected Linked File.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 linked_file_public_id = 789 # int | The unique identifier of the linked file.
 
 try:
@@ -2835,19 +2835,19 @@ Returns information about a Member.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.GetMember() # GetMember | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.GetMember() # GetMember | 
 member_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The Member's unique ID.
 
 try:
@@ -2891,18 +2891,18 @@ Get Milestone returns information about a chosen Milestone.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 milestone_public_id = 789 # int | The ID of the Milestone.
 
 try:
@@ -2945,18 +2945,18 @@ Get Project returns information about the selected Project.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 project_public_id = 789 # int | The unique ID of the Project.
 
 try:
@@ -2999,18 +2999,18 @@ Get Repository returns information about the selected Repository.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 repo_public_id = 789 # int | The unique ID of the Repository.
 
 try:
@@ -3053,18 +3053,18 @@ Get Story returns information about a chosen Story.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The ID of the Story.
 
 try:
@@ -3107,18 +3107,18 @@ Get Comment is used to get Comment information.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The ID of the Story that the Comment is in.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -3163,18 +3163,18 @@ Returns the stories and their relationship for the given Story Link.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_link_public_id = 789 # int | The unique ID of the Story Link.
 
 try:
@@ -3217,18 +3217,18 @@ Returns information about a chosen Task.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The unique ID of the Story this Task is associated with.
 task_public_id = 789 # int | The unique ID of the Task.
 
@@ -3273,18 +3273,18 @@ Get Workflow returns information about a chosen Workflow.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 workflow_public_id = 789 # int | The ID of the Workflow.
 
 try:
@@ -3327,18 +3327,18 @@ List Categories returns a list of all Categories and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Categories
@@ -3377,18 +3377,18 @@ List Category Milestones returns a list of all Milestones with the Category.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 category_public_id = 789 # int | The unique ID of the Category.
 
 try:
@@ -3431,18 +3431,18 @@ List all the entity templates for the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Entity Templates
@@ -3481,18 +3481,18 @@ Get a list of all Comments on an Epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 epic_public_id = 789 # int | The unique ID of the Epic.
 
 try:
@@ -3535,19 +3535,19 @@ Get a list of all Stories in an Epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.GetEpicStories() # GetEpicStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.GetEpicStories() # GetEpicStories | 
 epic_public_id = 789 # int | The unique ID of the Epic.
 
 try:
@@ -3591,19 +3591,19 @@ List Epics returns a list of all Epics and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.ListEpics() # ListEpics | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.ListEpics() # ListEpics | 
 
 try:
     # List Epics
@@ -3645,18 +3645,18 @@ List Files returns a list of all UploadedFiles in the workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Files
@@ -3695,19 +3695,19 @@ List the Stories assigned to the Group. (By default, limited to 1,000).
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.ListGroupStories() # ListGroupStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.ListGroupStories() # ListGroupStories | 
 group_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The unique ID of the Group.
 
 try:
@@ -3751,18 +3751,18 @@ A group in our API maps to a \"Team\" within the Shortcut Product. A Team is a c
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Groups
@@ -3801,19 +3801,19 @@ Get a list of all Stories in an Iteration.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.GetIterationStories() # GetIterationStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.GetIterationStories() # GetIterationStories | 
 iteration_public_id = 789 # int | The unique ID of the Iteration.
 
 try:
@@ -3855,18 +3855,18 @@ List Iterations
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Iterations
@@ -3905,18 +3905,18 @@ List all of the Epics with the Label.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 label_public_id = 789 # int | The unique ID of the Label.
 
 try:
@@ -3959,19 +3959,19 @@ List all of the Stories with the Label.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.GetLabelStories() # GetLabelStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.GetLabelStories() # GetLabelStories | 
 label_public_id = 789 # int | The unique ID of the Label.
 
 try:
@@ -4015,19 +4015,19 @@ List Labels returns a list of all Labels and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.ListLabels() # ListLabels | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.ListLabels() # ListLabels | 
 
 try:
     # List Labels
@@ -4069,18 +4069,18 @@ List Linked Files returns a list of all Linked-Files and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Linked Files
@@ -4119,19 +4119,19 @@ Returns information about members of the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.ListMembers() # ListMembers | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.ListMembers() # ListMembers | 
 
 try:
     # List Members
@@ -4173,18 +4173,18 @@ List all of the Epics within the Milestone.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 milestone_public_id = 789 # int | The ID of the Milestone.
 
 try:
@@ -4227,18 +4227,18 @@ List Milestones returns a list of all Milestones and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Milestones
@@ -4277,18 +4277,18 @@ List Projects returns a list of all Projects and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Projects
@@ -4327,18 +4327,18 @@ List Repositories returns a list of all Repositories and their attributes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Repositories
@@ -4377,19 +4377,19 @@ List Stories returns a list of all Stories in a selected Project and their attri
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.GetProjectStories() # GetProjectStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.GetProjectStories() # GetProjectStories | 
 project_public_id = 789 # int | The unique ID of the Project.
 
 try:
@@ -4433,18 +4433,18 @@ Returns a list of all Workflows in the Workspace.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 
 try:
     # List Workflows
@@ -4483,19 +4483,19 @@ Search lets you search Epics and Stories based on desired parameters. Since orde
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.Search() # Search | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.Search() # Search | 
 
 try:
     # Search
@@ -4537,19 +4537,19 @@ Search Epics lets you search Epics based on desired parameters. Since ordering o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.Search() # Search | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.Search() # Search | 
 
 try:
     # Search Epics
@@ -4591,19 +4591,19 @@ Search Stories lets you search Stories based on desired parameters. Since orderi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.Search() # Search | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.Search() # Search | 
 
 try:
     # Search Stories
@@ -4645,19 +4645,19 @@ Search Stories lets you search Stories based on desired parameters.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SearchStories() # SearchStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.SearchStories() # SearchStories | 
 
 try:
     # Search Stories (Old)
@@ -4697,18 +4697,18 @@ Story History
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_public_id = 789 # int | The ID of the Story.
 
 try:
@@ -4751,18 +4751,18 @@ This endpoint allows you to unlink a productboard epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 epic_public_id = 789 # int | The unique ID of the Epic.
 
 try:
@@ -4804,19 +4804,19 @@ Update Category allows you to replace a Category name with another name. If you 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateCategory() # UpdateCategory | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateCategory() # UpdateCategory | 
 category_public_id = 789 # int | The unique ID of the Category you wish to update.
 
 try:
@@ -4860,19 +4860,19 @@ Update an entity template's name or its contents.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateEntityTemplate() # UpdateEntityTemplate | Request parameters for changing either a template's name or any of
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateEntityTemplate() # UpdateEntityTemplate | Request parameters for changing either a template's name or any of
   the attributes it is designed to pre-populate.
 entity_template_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The unique ID of the template to be updated.
 
@@ -4918,19 +4918,19 @@ Update Epic can be used to update numerous fields in the Epic. The only required
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateEpic() # UpdateEpic | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateEpic() # UpdateEpic | 
 epic_public_id = 789 # int | The unique ID of the Epic.
 
 try:
@@ -4974,19 +4974,19 @@ This endpoint allows you to update a threaded Comment on an Epic.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateComment() # UpdateComment | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateComment() # UpdateComment | 
 epic_public_id = 789 # int | The ID of the associated Epic.
 comment_public_id = 789 # int | The ID of the Comment.
 
@@ -5032,19 +5032,19 @@ Update File updates the properties of an UploadedFile (but not its content).
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateFile() # UpdateFile | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateFile() # UpdateFile | 
 file_public_id = 789 # int | The unique ID assigned to the file in Shortcut.
 
 try:
@@ -5086,19 +5086,19 @@ Update Group
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateGroup() # UpdateGroup | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateGroup() # UpdateGroup | 
 group_public_id = '38400000-8cf0-11bd-b23e-10b96e4ef00d' # str | The unique ID of the Group.
 
 try:
@@ -5140,19 +5140,19 @@ Update Iteration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateIteration() # UpdateIteration | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateIteration() # UpdateIteration | 
 iteration_public_id = 789 # int | The unique ID of the Iteration.
 
 try:
@@ -5196,19 +5196,19 @@ Update Label allows you to replace a Label name with another name. If you try to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateLabel() # UpdateLabel | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateLabel() # UpdateLabel | 
 label_public_id = 789 # int | The unique ID of the Label you wish to update.
 
 try:
@@ -5252,19 +5252,19 @@ Updated Linked File allows you to update properties of a previously attached Lin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateLinkedFile() # UpdateLinkedFile | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateLinkedFile() # UpdateLinkedFile | 
 linked_file_public_id = 789 # int | The unique identifier of the linked file.
 
 try:
@@ -5308,19 +5308,19 @@ Update Milestone can be used to update Milestone properties.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateMilestone() # UpdateMilestone | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateMilestone() # UpdateMilestone | 
 milestone_public_id = 789 # int | The ID of the Milestone.
 
 try:
@@ -5364,19 +5364,19 @@ Update Multiple Stories allows you to make changes to numerous stories at once.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateStories() # UpdateStories | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateStories() # UpdateStories | 
 
 try:
     # Update Multiple Stories
@@ -5418,19 +5418,19 @@ Update Project can be used to change properties of a Project.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateProject() # UpdateProject | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateProject() # UpdateProject | 
 project_public_id = 789 # int | The unique ID of the Project.
 
 try:
@@ -5474,19 +5474,19 @@ Update Story can be used to update Story properties.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateStory() # UpdateStory | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateStory() # UpdateStory | 
 story_public_id = 789 # int | The unique identifier of this story.
 
 try:
@@ -5530,19 +5530,19 @@ Update Comment replaces the text of the existing Comment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateStoryComment() # UpdateStoryComment | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateStoryComment() # UpdateStoryComment | 
 story_public_id = 789 # int | The ID of the Story that the Comment is in.
 comment_public_id = 789 # int | The ID of the Comment
 
@@ -5588,19 +5588,19 @@ Updates the stories and/or the relationship for the given Story Link.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateStoryLink() # UpdateStoryLink | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateStoryLink() # UpdateStoryLink | 
 story_link_public_id = 789 # int | The unique ID of the Story Link.
 
 try:
@@ -5644,19 +5644,19 @@ Update Task can be used to update Task properties.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UpdateTask() # UpdateTask | 
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
+body = shortcut_api.UpdateTask() # UpdateTask | 
 story_public_id = 789 # int | The unique identifier of the parent Story.
 task_public_id = 789 # int | The unique identifier of the Task you wish to update.
 
@@ -5702,18 +5702,18 @@ Upload Files uploads one or many files and optionally associates them with a sto
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_token
-configuration = swagger_client.Configuration()
+configuration = shortcut_api.Configuration()
 configuration.api_key['Shortcut-Token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Shortcut-Token'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = shortcut_api.DefaultApi(shortcut_api.ApiClient(configuration))
 story_id = 789 # int | 
 file0 = 'file0_example' # str | 
 file1 = 'file1_example' # str | 
