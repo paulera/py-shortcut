@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.custom_field_value_params import CustomFieldValueParams  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.custom_field_value_params import CustomFieldValueParams  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestCustomFieldValueParams(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCustomFieldValueParams(unittest.TestCase):
     def testCustomFieldValueParams(self):
         """Test CustomFieldValueParams"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.custom_field_value_params.CustomFieldValueParams()  # noqa: E501
+        # model = shortcut_api.models.custom_field_value_params.CustomFieldValueParams()  # noqa: E501
         pass
 
 

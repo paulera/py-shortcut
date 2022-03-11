@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.workflow import Workflow  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.workflow import Workflow  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestWorkflow(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestWorkflow(unittest.TestCase):
     def testWorkflow(self):
         """Test Workflow"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.workflow.Workflow()  # noqa: E501
+        # model = shortcut_api.models.workflow.Workflow()  # noqa: E501
         pass
 
 

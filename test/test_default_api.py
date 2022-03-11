@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.default_api import DefaultApi  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.api.default_api import DefaultApi  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestDefaultApi(unittest.TestCase):

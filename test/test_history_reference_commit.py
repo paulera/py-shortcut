@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.history_reference_commit import HistoryReferenceCommit  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.history_reference_commit import HistoryReferenceCommit  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestHistoryReferenceCommit(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestHistoryReferenceCommit(unittest.TestCase):
     def testHistoryReferenceCommit(self):
         """Test HistoryReferenceCommit"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.history_reference_commit.HistoryReferenceCommit()  # noqa: E501
+        # model = shortcut_api.models.history_reference_commit.HistoryReferenceCommit()  # noqa: E501
         pass
 
 

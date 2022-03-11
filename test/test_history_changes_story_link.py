@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.history_changes_story_link import HistoryChangesStoryLink  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.history_changes_story_link import HistoryChangesStoryLink  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestHistoryChangesStoryLink(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestHistoryChangesStoryLink(unittest.TestCase):
     def testHistoryChangesStoryLink(self):
         """Test HistoryChangesStoryLink"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.history_changes_story_link.HistoryChangesStoryLink()  # noqa: E501
+        # model = shortcut_api.models.history_changes_story_link.HistoryChangesStoryLink()  # noqa: E501
         pass
 
 

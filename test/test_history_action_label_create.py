@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.history_action_label_create import HistoryActionLabelCreate  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.history_action_label_create import HistoryActionLabelCreate  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestHistoryActionLabelCreate(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestHistoryActionLabelCreate(unittest.TestCase):
     def testHistoryActionLabelCreate(self):
         """Test HistoryActionLabelCreate"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.history_action_label_create.HistoryActionLabelCreate()  # noqa: E501
+        # model = shortcut_api.models.history_action_label_create.HistoryActionLabelCreate()  # noqa: E501
         pass
 
 

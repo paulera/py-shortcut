@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v3_files_body import V3FilesBody  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.v3_files_body import V3FilesBody  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestV3FilesBody(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV3FilesBody(unittest.TestCase):
     def testV3FilesBody(self):
         """Test V3FilesBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v3_files_body.V3FilesBody()  # noqa: E501
+        # model = shortcut_api.models.v3_files_body.V3FilesBody()  # noqa: E501
         pass
 
 

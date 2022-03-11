@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.get_external_link_stories_params import GetExternalLinkStoriesParams  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.get_external_link_stories_params import GetExternalLinkStoriesParams  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestGetExternalLinkStoriesParams(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestGetExternalLinkStoriesParams(unittest.TestCase):
     def testGetExternalLinkStoriesParams(self):
         """Test GetExternalLinkStoriesParams"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.get_external_link_stories_params.GetExternalLinkStoriesParams()  # noqa: E501
+        # model = shortcut_api.models.get_external_link_stories_params.GetExternalLinkStoriesParams()  # noqa: E501
         pass
 
 

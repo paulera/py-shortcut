@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.basic_workspace_info import BasicWorkspaceInfo  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.basic_workspace_info import BasicWorkspaceInfo  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestBasicWorkspaceInfo(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestBasicWorkspaceInfo(unittest.TestCase):
     def testBasicWorkspaceInfo(self):
         """Test BasicWorkspaceInfo"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.basic_workspace_info.BasicWorkspaceInfo()  # noqa: E501
+        # model = shortcut_api.models.basic_workspace_info.BasicWorkspaceInfo()  # noqa: E501
         pass
 
 

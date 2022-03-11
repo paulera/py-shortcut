@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.identity import Identity  # noqa: E501
-from swagger_client.rest import ApiException
+import shortcut_api
+from shortcut_api.models.identity import Identity  # noqa: E501
+from shortcut_api.rest import ApiException
 
 
 class TestIdentity(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestIdentity(unittest.TestCase):
     def testIdentity(self):
         """Test Identity"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.identity.Identity()  # noqa: E501
+        # model = shortcut_api.models.identity.Identity()  # noqa: E501
         pass
 
 
